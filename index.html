@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+   <link rel='stylesheet' href="src/style.css">
+</head>
+<html>
+<body>
+<div id='grid'></div>
+<div id='panel'>
+    <div>
+        <input type="color" id='active-color'>
+    </div>
+    <br>
+    <div id='actions'>
+        <a data-action='brush' class='action-button action-button__active'>
+            <span>brush</span>
+        </a>
+        <a data-action='fill' class='action-button'>
+            <span>fill</span>
+        </a>
+        <a data-action='clear' class='action-button'>
+            <span>clear</span>
+        </a>
+    </div>
+</div>
+<div id='palette'>
+    <div id='colors'></div>
+</div>
+</body>
+<script src="src/index.js"></script>
+</html>

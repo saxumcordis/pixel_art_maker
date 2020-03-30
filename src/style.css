@@ -1,0 +1,78 @@
+html {
+    background-color: rgba(56, 31, 44, 0.21);
+    font-size: 1em;
+}
+
+#active-color {
+    width: 100px;
+    height: 20px;
+    margin-left: 595px;
+    border-radius: 30%;
+}
+
+#grid {
+    display: grid;
+    margin-left: 500px;
+}
+
+.cell {
+    width: 5px;
+    height: 5px;
+    user-select: none;
+    margin: 0.5px;
+}
+
+.row {
+    display: flex;
+}
+
+#panel {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    float: bottom;
+    width: 100%;
+}
+
+#actions {
+    margin-left: 475px;
+    display: flex;
+}
+
+.action-button {
+    width: 100px;
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #8da0d4;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.action-button:hover {
+    background-color: #8da0d4;
+}
+
+.action-button__active {
+    background-color: #8da0d4;
+}
+
+#colors {
+    display: grid;
+    grid-template-columns: repeat(40, 25px);
+    gap: 2px;
+    margin-left: 150px;
+}
+
+#colors > div {
+    align-content: center;
+    height: 25px;
+    width: 25px;
+    border-radius: 30%;
+}
+
+#palette {
+    margin-left: 415px;
+    background-color: rgba(0, 0, 0, 0.62);
+    width: 481px;
+}
